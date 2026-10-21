@@ -1,0 +1,15 @@
+[project]
+name = "bakery-preparation-dashboard"
+version = "0.1.0"
+description = "Decision-focused bakery preparation dashboard based on historic Kaggle transactions"
+readme = "README.md"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "streamlit>=1.50,<2",
+    "pandas>=2.3.3,<3",
+    "matplotlib>=3.10,<4",
+    "numpy>=2.1,<3",
+]
+
+[tool.uv]
+package = false
